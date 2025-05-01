@@ -1,0 +1,332 @@
+@media screen and (max-width:1140px) {
+    .navbar {
+        padding: 0.5rem 2rem;
+    }
+
+    .dashboard-btn>.dashboard {
+        width: 104px;
+        height: 34px;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .department-section .heading,
+    .modeButton>.content,
+    .content-text .super-admin {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .department {
+        padding: 0.5rem 2rem;
+        width: 100%;
+    }
+
+    .department-container {
+        padding: 4rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+
+    .NEO-Container,
+    .SMS-Container,
+    .EMERGENCY-Container {
+        width: 380px;
+        height: 680px;
+        padding: 2rem 1.2rem;
+    }
+
+    .department-heading,
+    .SMS-wrapper .sms-text .sms-head,
+    .emergency-content .emergency-heading {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .emergency-btn{
+        padding: 0.6rem 0.8rem;
+    }
+}
+
+    @media screen and (max-width: 958px) {
+        .navbar {
+            padding: 0.5rem 2rem;
+        }
+
+        .dashboard-btn>.dashboard {
+            width: 100px;
+            height: 33px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .department-section .heading,
+        .content-text .super-admin {
+            display: none;
+        }
+
+        .line {
+            height: 34px;
+            width: 1px;
+        }
+
+        .toggle-switch {
+            width: 60px;
+            height: 31px;
+        }
+
+        .slider::before {
+            height: 24px;
+            width: 24px;
+            top: 3.5px;
+        }
+
+        .profileImage {
+            width: 32px;
+            height: 32px;
+        }
+
+        .department {
+            padding: 0.5rem 1.6rem;
+            width: 100%;
+        }
+    
+        .department-container {
+            padding: 4rem 3rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 20px;
+            column-gap: 16px;
+        }
+    
+        .NEO-Container,
+        .SMS-Container,
+        .EMERGENCY-Container {
+            width: 330px;
+            height: 680px;
+            padding: 2rem 1rem;
+        }
+    
+        .department-heading,
+        .SMS-wrapper .sms-text .sms-head,
+        .emergency-content .emergency-heading {
+          font-size: 18px;
+          font-weight: 600;
+        }
+    
+        .emergency-btn{
+            padding: 0.6rem 0.5rem;
+            font-size: 13px;
+        }
+
+        .SMS-Content .paraText{
+            font-size: 15px;
+        }
+
+    }
+
+    @media screen and (max-width:768px) {
+        .navbar {
+            padding: 0.5rem 2rem;
+        }
+
+        .dashboard-btn>.dashboard {
+            width: 104px;
+            height: 34px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .department-section .heading,
+        .modeButton>.content,
+        .content-text .super-admin {
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .profileImage {
+            width: 30px;
+            height: 30px;
+        }
+
+        .Options-dropdown {
+            min-width: 200px;
+        }
+
+        .options {
+            width: 200px;
+        }
+
+        .department {
+            padding: 0.5rem 4rem;
+            /* background-color: rgb(226, 113, 230); */
+        }
+    
+        .department-container {
+            padding: 4rem 4rem;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 20px;
+            column-gap: 16px;
+        }
+    
+        .NEO-Container,
+        .SMS-Container,
+        .EMERGENCY-Container {
+            width: 500px;
+            height: 680px;
+            padding: 2rem 1rem;
+        }
+    
+        .department-heading,
+        .SMS-wrapper .sms-text .sms-head,
+        .emergency-content .emergency-heading {
+          font-size: 20px;
+          font-weight: 600;
+        }
+    
+        .emergency-btn{
+            padding: 0.8rem 0.8rem;
+            font-size: 15px;
+        }
+
+        .SMS-Content .paraText{
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width:660px) {
+        .navbar {
+            padding: 0.5rem 1.5rem;
+        }
+
+        .dashboard-btn>.dashboard {
+            display: none;
+        }
+
+        .profileImage {
+            width: 26px;
+            height: 26px;
+        }
+
+        .Options-dropdown {
+            min-width: 160px;
+        }
+
+        .options {
+            width: 160px;
+        }
+
+        .department {
+            padding: 0.5rem 1.6rem;
+            /* background-color: rgb(113, 187, 230); */
+        }
+    
+        .department-container {
+            padding: 4rem 3rem;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 20px;
+            column-gap: 16px;
+        }
+    
+        .NEO-Container,
+        .SMS-Container,
+        .EMERGENCY-Container {
+            width: 450px;
+            height: 680px;
+            padding: 2rem 1rem;
+        }
+    
+        .department-heading,
+        .SMS-wrapper .sms-text .sms-head,
+        .emergency-content .emergency-heading {
+          font-size: 20px;
+          font-weight: 600;
+        }
+    
+        .emergency-btn{
+            padding: 0.8rem 0.8rem;
+            font-size: 15px;
+        }
+
+        .SMS-Content .paraText{
+            font-size: 16px;
+        }
+
+    }
+
+
+    @media screen and (max-width:532px) {
+        .navbar {
+            padding: 0.5rem 1.2rem;
+        }
+
+        .dashboard-btn>.dashboard {
+            display: none;
+        }
+
+        .profileImage {
+            width: 26px;
+            height: 26px;
+        }
+
+        .Options-dropdown {
+            min-width: 120px;
+        }
+
+        .options {
+            width: 120px;
+        }
+
+        .modeButton>.content {
+            display: none;
+        }
+
+        .Options-dropdown {
+            min-width: 150px;
+        }
+
+        #options {
+            width: 150px;
+        }
+
+        .department {
+            padding: 0.5rem 0.6rem;
+            background-color: rgb(230, 113, 113);
+        }
+    
+        .department-container {
+            padding: 4rem 0.5rem;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 20px;
+            column-gap: 16px;
+        }
+    
+        .NEO-Container,
+        .SMS-Container,
+        .EMERGENCY-Container {
+            width: 380px;
+            height: 680px;
+            padding: 2rem 1.2rem;
+        }
+    
+        .department-heading,
+        .SMS-wrapper .sms-text .sms-head,
+        .emergency-content .emergency-heading {
+          font-size: 20px;
+          font-weight: 600;
+        }
+    
+        .emergency-btn{
+            padding: 0.8rem 0.8rem;
+            font-size: 15px;
+        }
+
+        .SMS-Content .paraText{
+            font-size: 16px;
+        }
+    }

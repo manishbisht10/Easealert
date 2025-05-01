@@ -1,0 +1,65 @@
+/* Dark Theme */
+.dark-theme {
+    --bg-color: #615F60;
+    --button-color: #d3d3d3;
+    --card-body-color: #595959;
+    --text-color: #FFF;
+}
+
+body.dark-theme {
+    background: var(--bg-color);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.card {
+    background-color: var(--card-light-color, #fff);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.dark-theme .card {
+    background-color: var(--card-body-color, #595959);
+    color: var(--text-color);
+    outline: none;
+    border: none;
+}
+
+/* Dark mode styles for header */
+.dark-theme header,
+.dark-theme .navbar {
+    background-color: #595959 !important;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.dark-theme .navbar a,
+.dark-theme .content-text {
+    color: #ffffff !important;
+}
+
+/* Base button style (optional for custom look) */
+.NEO-button {
+    background-color: #f0f0f0;
+    color: #000;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Dark theme style */
+.dark-theme .NEO-button {
+    background-color: var(--bg-color);
+    color: #b0b0b0;
+    border: 1px solid var(--bg-color);
+}
+
+body.dark-theme .hamburger-btn {
+    color: #fff;
+}
+
+.dark-theme .NEO-button.active {
+    background-color: #008000 !important;
+    color: #fff !important;
+}
+
+body.dark-theme .hamburger-btn i {
+    color: #fff;
+}

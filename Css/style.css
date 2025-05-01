@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+:root {
+    --primary-color: #FFFFFF;
+    --Secondary-color: #D3D3D3;
+    --main-color: #8C2828;
+    --Text-color: #F6F6F6;
+    --dark-color: #000000;
+    --card-light-color: #FFF;
+    --bg-color: #F0F3F2;
+    --button-color: #E9E9E9;
+    --active-green-color: #008000;
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+}
+
+i {
+    cursor: pointer;
+}
+
+.hamburger-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: none;
+    background: transparent;
+    color: #000;
+}
+
+.hamburger-btn i {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+
+.dashboard-btn {
+    padding: 8px 16px;
+    border: var(--main-color);
+    background: var(--main-color);
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 33px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+.content-text {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+}
+
+.profileImage {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.profileImage img {
+    height: 100%;
+    width: 100%;
+}
+
+.toggle-switch {
+    position: relative;
+    width: 67px;
+    height: 40px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: var(--dark-color);
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider::before {
+    position: absolute;
+    content: "ON";
+    font-size: 14px;
+    font-weight: 800;
+    height: 32px;
+    width: 32px;
+    left: 4px;
+    bottom: 4px;
+    background-color: var(--primary-color);
+    transition: 0.4s;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input:checked+.slider {
+    background-color: var(--active-green-color)
+}
+
+input:checked+.slider::before {
+    transform: translateX(26px);
+    content: "OFF";
+}
+
+.toggle-text {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.line {
+    height: 38px;
+    width: 1px;
+    background: var(--Secondary-color);
+    margin-right: 12px;
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+}
+
+.subheading {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+}
+
+
+.paratext {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+}
+
+img {
+    cursor: pointer;
+}
+
+.btn {
+    background-color: var(--button-color);
+    outline: none;
+    border-color: var(--button-color);
+    font-size: 16px;
+    font-weight: 500;
+    color: #838383 !important;
+    font-family: "Work Sans", sans-serif;
+    padding: 0.8rem 1.2rem;
+}
+
+.btn:hover {
+    background: var(--active-green-color);
+    border: 1px solid var(--active-green-color);
+    color: var(--primary-color);
+}
+
+.NEO-button.active {
+    background-color: var(--active-green-color);
+    color: var(--primary-color);
+    border: var(--active-green-color);
+}
+
+
+.card {
+    width: 440px;
+    height: 660px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--card-light-color);
+}
+
+.ri-mail-line {
+    background: var(--Secondary-color);
+    color: var(--primary-color);
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 6px 12px;
+}
+
+
+.tooltip-inner {
+    max-width: 350px;
+    width: 350px;
+    font-size: 15px;
+    background: #333;
+    font-weight: 500;
+    text-align: start;
+    font-family: "Work Sans", sans-serif;
+}
+
+.form-control {
+    width: 100%;
+    height: 50px;
+}
+
+.form-control::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+}
+
+textarea#messagebox {
+    width: 100%;
+    height: 230px;
+    pointer-events: none;
+    cursor: none;
+    resize: none;
+}
+
+
+.footer-section {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.select2-selection__placeholder {
+    font-weight: bold;
+}
+
+.select2-results__option--highlighted {
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+}
+
+.select2-container--default .select2-selection--single {
+    height: 38px !important;
+    display: flex;
+    align-items: center;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 38px !important;
+    font-weight: 500;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 26px;
+    position: absolute;
+    right: 1px;
+    top: 5px;
+    width: 20px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    display: none !important;
+}
+
+
+/* === Light mode ===*/
+.footer-section {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.footer-link {
+    color: #000000;
+}
+
+/* === Dark mode ===*/
+.dark-theme .footer-section {
+    background-color: #595959;
+    color: #ffffff;
+}
+
+.dark-theme .footer-link {
+    color: #ffffff;
+}
+
+.footer-section,
+.footer-link {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Tooltip  */
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    top: 3px;
+}
+
+.tooltip-icon {
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    width: 320px;
+    background-color: #333;
+    color: var(--bg-color);
+    text-align: start;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    top: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease;
+    /* display: none; */
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-text::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent;
+}
