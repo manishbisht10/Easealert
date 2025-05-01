@@ -40,9 +40,9 @@ body {
 
 /* Dark theme style */
  .NEO-button {
-    background-color: var(--bg-color);
+    background-color: #737373;
     color: #b0b0b0;
-    border: 1px solid var(--bg-color);
+    border: 1px solid #737373;
 }
 
 body .hamburger-btn {
