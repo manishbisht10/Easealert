@@ -11,16 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-
-// dark theme & light theme
-// const toggleBtn = document.getElementById('toggleBtn');
-
-// toggleBtn.addEventListener('change', function () {
-//     document.body.classList.toggle('dark-theme', this.checked);
-// });
-
-
-
+//Dark theme implmeteds
 const toggleBtn = document.getElementById('toggleBtn');
 const darkThemeId = 'dark-theme-style';
 
