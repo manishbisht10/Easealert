@@ -41,7 +41,7 @@ body {
 /* Dark theme style */
  .NEO-button {
     background-color: #737373;
-    color: #b0b0b0;
+    color: #c8c8c8;
     border: 1px solid #737373;
 }
 
@@ -51,7 +51,7 @@ body .hamburger-btn {
 
  .NEO-button.active {
     background-color: #008000 !important;
-    color: #fff !important;
+    color: #c8c8c8 !important;
 }
 
 body .hamburger-btn i {
