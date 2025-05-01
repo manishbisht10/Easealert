@@ -1,14 +1,8 @@
-/* Dark Theme */
-.dark-theme {
-    --bg-color: #615F60;
-    --button-color: #d3d3d3;
-    --card-body-color: #595959;
-    --text-color: #FFF;
-}
 
-body.dark-theme {
-    background: var(--bg-color);
+body {
+    background: #615F60;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    height: auto;
 }
 
 .card {
@@ -16,23 +10,23 @@ body.dark-theme {
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
-.dark-theme .card {
+ .card {
     background-color: var(--card-body-color, #595959);
-    color: #ACACAC;
+    color: white;
     outline: none;
     border: none;
 }
 
 /* Dark mode styles for header */
-.dark-theme header,
-.dark-theme .navbar {
+ header,
+ .navbar {
     background-color: #595959 !important;
     color: #ffffff;
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
-.dark-theme .navbar a,
-.dark-theme .content-text {
+ .navbar a,
+ .content-text {
     color: #ffffff !important;
 }
 
@@ -45,21 +39,25 @@ body.dark-theme {
 }
 
 /* Dark theme style */
-.dark-theme .NEO-button {
+ .NEO-button {
     background-color: var(--bg-color);
     color: #b0b0b0;
     border: 1px solid var(--bg-color);
 }
 
-body.dark-theme .hamburger-btn {
+body .hamburger-btn {
     color: #fff;
 }
 
-.dark-theme .NEO-button.active {
+ .NEO-button.active {
     background-color: #008000 !important;
     color: #fff !important;
 }
 
-body.dark-theme .hamburger-btn i {
+body .hamburger-btn i {
     color: #fff;
+}
+
+.tooltip-icon {
+    color: #fff !important;
 }

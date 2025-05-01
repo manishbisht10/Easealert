@@ -104,7 +104,7 @@ i {
 
 .slider::before {
     position: absolute;
-    content: "ON";
+    content: "OFF";
     font-size: 14px;
     font-weight: 800;
     height: 32px;
@@ -125,7 +125,7 @@ input:checked+.slider {
 
 input:checked+.slider::before {
     transform: translateX(26px);
-    content: "OFF";
+    content: "ON";
 }
 
 .toggle-text {
@@ -178,7 +178,7 @@ img {
 
 .btn:hover {
     background-color: var(--button-color);
-    border: 1px solid var(--active-green-color);
+    border: 1px solid var(--button-color);
     color: var(--primary-color);
 }
 
