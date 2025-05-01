@@ -41,7 +41,7 @@ body {
 /* Dark theme style */
  .NEO-button {
     background-color: #737373;
-    color: #c8c8c8;
+    color: #A8A8A8;
     border: 1px solid #737373;
 }
 
@@ -60,4 +60,13 @@ body .hamburger-btn i {
 
 .tooltip-icon {
     color: #fff !important;
+}
+
+
+.footer-section{
+ background: #595959;
+}
+
+.footer-section a{
+    color: #FFF;
 }

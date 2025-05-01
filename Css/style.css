@@ -182,7 +182,7 @@ img {
     color: var(--primary-color);
 }
 
-.NEO-button.active {
+.btn.active {
     background-color: var(--active-green-color);
     color: var(--primary-color);
     border: var(--active-green-color);
@@ -278,7 +278,6 @@ textarea#messagebox {
 }
 
 
-/* === Light mode ===*/
 .footer-section {
     background-color: #ffffff;
     color: #000000;
@@ -286,16 +285,7 @@ textarea#messagebox {
 
 .footer-link {
     color: #000000;
-}
-
-/* === Dark mode ===*/
-.dark-theme .footer-section {
-    background-color: #595959;
-    color: #ffffff;
-}
-
-.dark-theme .footer-link {
-    color: #ffffff;
+    font-size: 14px;
 }
 
 .footer-section,
