@@ -173,7 +173,7 @@ img {
     border: var(--button-color);
     color: #838383 !important;
     font-family: "Work Sans", sans-serif;
-    padding: 0.8rem 1.2rem;
+    padding: 0.7rem 1rem;
 }
 
 .btn:hover {
@@ -335,7 +335,7 @@ textarea#messagebox {
     left: 50%;
     transform: translateX(-50%);
     transition: opacity 0.3s ease;
-    /* display: none; */
+    display: none;
 }
 
 .tooltip-container:hover .tooltip-text {
