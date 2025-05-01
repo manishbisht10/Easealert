@@ -1,13 +1,13 @@
 
 // active butons
 document.addEventListener('DOMContentLoaded', function () {
-    const buttons = document.querySelectorAll('#buttonGroup .NEO-button');
+  const buttons = document.querySelectorAll('#buttonGroup .NEO-button');
 
-    buttons.forEach(button => {
-        button.addEventListener('click', function () {
-            this.classList.toggle('active');
-        });
+  buttons.forEach(button => {
+    button.addEventListener('click', function () {
+      this.classList.toggle('active');
     });
+  });
 });
 
 
@@ -55,5 +55,18 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 
-// Tooltip 
+// Get the button
+const backToTopButton = document.getElementById("btn-back-to-top");
+
+window.onscroll = function () {
+  if (document.documentElement.scrollTop > 100) {
+    backToTopButton.style.display = "block";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+};
+
+backToTopButton.addEventListener("click", function () {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
 
