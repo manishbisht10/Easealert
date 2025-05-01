@@ -170,13 +170,14 @@ img {
     border-color: var(--button-color);
     font-size: 16px;
     font-weight: 500;
+    border: var(--button-color);
     color: #838383 !important;
     font-family: "Work Sans", sans-serif;
     padding: 0.8rem 1.2rem;
 }
 
 .btn:hover {
-    background: var(--active-green-color);
+    background-color: var(--button-color);
     border: 1px solid var(--active-green-color);
     color: var(--primary-color);
 }
