@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width:992px){
+@media screen and (min-width: 768px) and (max-width:992px) {
     .btn {
         font-size: 10px;
     }
@@ -6,41 +6,91 @@
     .tooltip-icon {
         font-size: 18px;
     }
+
     .tooltip-text {
         width: 200px;
     }
 
-    .footer-link{
+    .footer-link {
         font-size: 13px;
     }
 
     .tooltip-text {
-        display: none !important;
+        width: 40vw;
+        top: 50%;
+        left: auto;
+        padding: 4px;
+        right: 110%;
+        transform: translateY(-50%);
+        text-align: start;
+    }
+
+    .tooltip-text::after {
+        top: 50%;
+        left: 100%;
+        transform: translateY(-50%);
+        border-width: 6px;
+        border-style: solid;
+        border-color: transparent transparent transparent #333;
     }
 }
 
 
-@media screen and (min-width: 260px) and (max-width:576px){
-    .footer-link{
+@media screen and (min-width: 576px) and (max-width:768px) {
+    .tooltip-text {
+        width: 80vw;
+        top: 50%;
+        left: auto;
+        padding: 4px;
+        right: 110%;
+        transform: translateY(-50%);
+        text-align: start;
+    }
+
+    .tooltip-text::after {
+        top: 50%;
+        left: 100%;
+        transform: translateY(-50%);
+        border-width: 6px;
+        border-style: solid;
+        border-color: transparent transparent transparent #333;
+    }
+}
+
+@media screen and (min-width: 260px) and (max-width:576px) {
+    .footer-link {
         font-size: 12px !important;
     }
 
-    .tooltip-text {
-        display: none !important;
-        transform: translateX(-80%);
-    }
-
-    .NEO-button{
+    .NEO-button {
         font-size: 13px;
     }
 
-    .paratext{
+    .paratext {
         font-size: 13px;
     }
 
-    .img-fluid{
+    .img-fluid {
         height: 100px;
         width: 100px;
     }
 
+    .tooltip-text {
+        width: 58vw;
+        top: 50%;
+        left: auto;
+        padding: 4px;
+        right: 110%;
+        transform: translateY(-50%);
+        text-align: start;
+    }
+
+    .tooltip-text::after {
+        top: 50%;
+        left: 100%;
+        transform: translateY(-50%);
+        border-width: 6px;
+        border-style: solid;
+        border-color: transparent #333;
+    }
 }
