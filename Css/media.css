@@ -13,6 +13,10 @@
     .footer-link{
         font-size: 13px;
     }
+
+    .tooltip-text {
+        display: none !important;
+    }
 }
 
 
@@ -20,4 +24,23 @@
     .footer-link{
         font-size: 12px !important;
     }
+
+    .tooltip-text {
+        display: none !important;
+        transform: translateX(-80%);
+    }
+
+    .NEO-button{
+        font-size: 13px;
+    }
+
+    .paratext{
+        font-size: 13px;
+    }
+
+    .img-fluid{
+        height: 100px;
+        width: 100px;
+    }
+
 }
